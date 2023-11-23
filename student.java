@@ -1,10 +1,10 @@
 
 public class student extends person{
-    private String classroom;
-    public String getClassroom() {
+    private Classroom classroom;
+    public Classroom getClassroom() {
         return classroom;
     }
-    public void setClassroom(String classroom) {
+    public void setClassroom(Classroom classroom) {
         this.classroom = classroom;
     }
     public student(boolean parent_permission, int age, String name, int id) {
